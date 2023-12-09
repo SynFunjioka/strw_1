@@ -1,0 +1,43 @@
+@import "../abstracts/index";
+
+.form-control{
+    display: flex;
+    flex-direction: column;
+
+    position: relative;
+
+    font-size: 1.3rem;
+
+    background-color: inherit;
+
+    label{
+        position: absolute;
+        top: 0;
+        left: 0;
+        translate: 10px 10px;
+        transition: translate 500ms, scale 500ms, background-color 500ms;
+        cursor: text;
+    }
+
+    input[type="text"]{
+        flex: 0 0 50%;
+        font: inherit;
+        padding: 1rem;
+        border: none;
+        border-radius: 4px;
+        outline: 2px solid $color-grey-light-4;
+        transition: outline-color 500ms;
+
+        &:is(:focus, :valid){
+            outline: 2px solid $color-primary;
+        }
+
+        &:focus ~ label, &:valid ~ label{
+            padding-inline: 5px;
+            translate: 10px -14px;
+            scale: .9;
+            background-color: inherit;
+            color: $color-primary;
+        }
+    }
+}

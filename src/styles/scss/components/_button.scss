@@ -1,0 +1,56 @@
+@import "../abstracts/index.scss";
+
+.btn{
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+
+    &.btn-primary{
+        color: $color-primary;
+        border: 2px solid $color-primary;
+        background-color: transparent;
+
+        transition: all .2s;
+
+        &:hover{
+            background-color: $color-primary;
+            color: #fff;
+
+            box-shadow: 1px 6px 15px -6px rgba(0,0,0,0.75);
+            transform: translateY(-2px);
+        }
+    }
+
+    &.btn-danger{
+        color: $color-danger;
+        border: 2px solid $color-danger;
+        background-color: transparent;
+
+        transition: all .2s;
+
+        &:hover{
+            background-color: $color-danger;
+            color: #fff;
+
+            box-shadow: 1px 6px 15px -6px rgba(0,0,0,0.75);
+            transform: translateY(-2px);
+        }
+    }
+
+    &.btn-success{
+        color: $color-success;
+        border: 2px solid $color-success;
+        background-color: transparent;
+
+        transition: all .2s;
+
+        &:hover{
+            background-color: $color-success;
+            color: #fff;
+
+            box-shadow: 1px 6px 15px -6px rgba(0,0,0,0.75);
+            transform: translateY(-2px);
+        }
+    }
+}

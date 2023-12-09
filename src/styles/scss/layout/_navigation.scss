@@ -1,0 +1,11 @@
+@import "../abstracts/index";
+
+.navigation{
+    background-color: $color-grey-dark-1;
+
+    flex: 0 0 18%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}

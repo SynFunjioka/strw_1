@@ -1,0 +1,45 @@
+@import "./variables";
+
+@mixin media($size) {
+  @if $size == "XS" {
+    @media only screen and (max-width: 36em) { //? 576px
+      @content;
+    }
+  } @else if $size == "SM" {
+    @media only screen and (max-width: 48em) { //? 768px
+      @content;
+    }
+  } @else if $size == "MD" {
+    @media only screen and (max-width: 62em) { //? 992px
+      @content;
+    }
+  } @else if $size == "LG" {
+    @media only screen and (max-width: 75em) { //? 1200px
+      @content;
+    }
+  } @else if $size == "XL" {
+    @media only screen and (max-width: 87.5em) { //? 1400px
+      @content;
+    }
+  } @else {
+    @media only screen and (max-width: #{$size}) { //? Any size provided
+      @content;
+    }
+  }
+}
+
+@mixin box-shadow($type: "dark"){
+  @if $type == "dark" {
+    box-shadow: 0 2rem 6rem rgba(0,0,0,0.3);
+  } @else if $type == "SM" {
+    box-shadow: 0 2rem 5rem rgba(0, 0, 0, .06);
+  } 
+}
+
+@mixin text-gradient($primary, $secondary){
+  background-image: linear-gradient(to right, $primary, $secondary);;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+    // --line: 1.5px solid var(--color-grey-light-3);

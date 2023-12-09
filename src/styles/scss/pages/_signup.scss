@@ -1,0 +1,80 @@
+@import "../abstracts/index.scss";
+
+.signup-form{
+    padding: 7rem 0;
+    flex: 1;
+
+    background-color: $color-grey-light-1;
+    border-bottom-right-radius: 30%;
+    backdrop-filter: blur(3.5px);
+    -webkit-backdrop-filter: blur(3.5px);
+
+
+    fieldset{
+        width: 60%;
+        margin: auto;
+
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+
+        border: none;
+        background-color: inherit;
+
+        .form-control {
+            width: 100%;
+        }
+
+
+        legend{
+            margin-bottom: 3rem;
+            text-transform: uppercase;
+            font-size: 2.2rem;
+            font-weight: 500;
+
+            @include text-gradient($color-primary-light, $color-primary);
+
+            text-align: center;
+        }
+
+        button{
+            align-self: flex-end;
+        }
+    }
+    
+
+
+}
+
+
+.signup-info{
+    flex: 1;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    background: rgba(255, 255, 255, 0.15);
+
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(3.5px);
+    -webkit-backdrop-filter: blur(3.5px);   
+    
+    border-top-left-radius: 30%;
+
+    text-align: center;
+
+    & > *{
+        color:#fff ;
+    }
+
+    h2{
+        font-size: 3rem;
+        padding: 2.5rem;
+    }
+
+    p {
+        font-size: 1.3rem;
+        flex: 1;
+    }
+}
