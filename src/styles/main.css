@@ -24,7 +24,7 @@ body {
   font-weight: 300;
   line-height: 1.6;
   color: #777;
-  background-image: linear-gradient(to right bottom, #64CCC5, #053B50);
+  background-image: linear-gradient(to right bottom, #E6D587, #E6CA87);
   background-size: cover;
   background-repeat: no-repeat;
   min-height: 100vh;
@@ -62,7 +62,7 @@ body {
   left: 0;
   height: 100%;
   width: 3px;
-  background-color: #176B87;
+  background-color: #E6E188;
   transform: scaleY(0);
   transition: transform 0.2s, width 0.4s cubic-bezier(1, 0, 0, 1) 0.2s, background-color 0.1s;
 }
@@ -71,10 +71,17 @@ body {
   width: 100%;
 }
 .side-nav__item:active::before {
-  background-color: #64CCC5;
+  background-color: #E6D587;
+}
+.side-nav__item a {
+  transition: color 0.2s;
+  color: #faf9f9;
+}
+.side-nav__item--active a, .side-nav__item:hover a {
+  transition: color 0.4s cubic-bezier(1, 0, 0, 1) 0.2s;
+  color: #333;
 }
 .side-nav__link:link, .side-nav__link:visited {
-  color: #faf9f9;
   text-decoration: none;
   text-transform: uppercase;
   padding: 1.5rem 3rem;
@@ -139,8 +146,8 @@ body {
   height: 1.75rem;
   width: 1.75rem;
   border-radius: 100px;
-  background-color: #176B87;
-  color: #fff;
+  background-color: #E6E188;
+  color: #333;
   position: absolute;
   top: 1.5rem;
   right: 1.1rem;
@@ -199,14 +206,14 @@ body {
   transition: outline-color 500ms;
 }
 .form-control input[type=text]:is(:focus, :valid) {
-  outline: 2px solid #176B87;
+  outline: 2px solid #E6E188;
 }
 .form-control input[type=text]:focus ~ label, .form-control input[type=text]:valid ~ label {
   padding-inline: 5px;
   translate: 10px -14px;
   scale: 0.9;
   background-color: inherit;
-  color: #176B87;
+  color: #E6E188;
 }
 
 .btn {
@@ -216,13 +223,13 @@ body {
   cursor: pointer;
 }
 .btn.btn-primary {
-  color: #176B87;
-  border: 2px solid #176B87;
+  color: #E6E188;
+  border: 2px solid #E6E188;
   background-color: transparent;
   transition: all 0.2s;
 }
 .btn.btn-primary:hover {
-  background-color: #176B87;
+  background-color: #E6E188;
   color: #fff;
   box-shadow: 1px 6px 15px -6px rgba(0, 0, 0, 0.75);
   transform: translateY(-2px);
@@ -351,7 +358,7 @@ body {
   text-transform: uppercase;
   font-size: 2.2rem;
   font-weight: 500;
-  background-image: linear-gradient(to right, #64CCC5, #176B87);
+  background-image: linear-gradient(to right, #E6D587, #E6E188);
   background-clip: text;
   -webkit-text-fill-color: transparent;
   text-align: center;
@@ -409,7 +416,7 @@ body {
   text-transform: uppercase;
   font-size: 2.2rem;
   font-weight: 500;
-  background-image: linear-gradient(to right, #64CCC5, #176B87);
+  background-image: linear-gradient(to right, #E6D587, #E6E188);
   background-clip: text;
   -webkit-text-fill-color: transparent;
   text-align: center;

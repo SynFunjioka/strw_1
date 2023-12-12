@@ -24,7 +24,7 @@ export default function Home() {
           {/* <br />or <br /> login with: <br /> */}
         </p>
         <div className="legal">
-          &copy; 2023 by Kiuone. All rights reserved
+          &copy; 2023 by Alan Flores
         </div>
       </section>
     </>
