@@ -7,7 +7,7 @@ function Navigation() {
                         <svg className="side-nav__icon">
                             <use xlinkHref="images/sprites.svg#icon-home"></use>
                         </svg>
-                        <span>Hotel</span>
+                        <span>Guitarra</span>
                     </a>
                 </li>
                 <li className="side-nav__item">
@@ -15,7 +15,7 @@ function Navigation() {
                         <svg className="side-nav__icon">
                             <use xlinkHref="images/sprites.svg#icon-news"></use>
                         </svg>
-                        <span>My licenses</span>
+                        <span>Piano</span>
                     </a>
                 </li>
                 <li className="side-nav__item">
@@ -23,7 +23,7 @@ function Navigation() {
                         <svg className="side-nav__icon">
                             <use xlinkHref="images/sprites.svg#icon-user"></use>
                         </svg>
-                        <span>Account</span>
+                        <span>Violín</span>
                     </a>
                 </li>
             </ul>

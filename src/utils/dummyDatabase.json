@@ -1,0 +1,53 @@
+{
+    "guitar-videos": [
+        {
+            "name"    : "Canon in D",
+            "path"    : "./videos/guitar/Canon_In_D__Johann_Pachelbel_Fingerstyle_Guitar.mp4",
+            "duration": "2:44"
+        },
+        {
+            "name"    : "Careless whisper",
+            "path"    : "./videos/guitar/Careless_Whisper__George_Michael __Fingerstyle_Guitar.mp4",
+            "duration": "1:52"
+        },
+        {
+            "name"    : "Hotel California",
+            "path"    : "./videos/guitar/Canon_In_D__Johann_Pachelbel_Fingerstyle_Guitar.mp4",
+            "duration": "7:11"
+        }
+    ],
+    "piano-videos": [
+        {
+            "name"    : "Interestellar main theme",
+            "path"    : "./videos/piano/Interstellar_Main_Theme _Piano.mp4",
+            "duration": "4:52"
+        },
+        {
+            "name"    : "River flows in you",
+            "path"    : "./videos/piano/river_flows_in_you_piano.mp4",
+            "duration": "2:18"
+        },
+        {
+            "name"    : "Yoake no uta",
+            "path"    : "./videos/piano/Yoake_no_uta_piano.mp4",
+            "duration": "2:15"
+        }
+    ],
+    "violin-videos": [
+        {
+            "name"    : "Allegro modarato",
+            "path"    : "./videos/guitar/Allegro_Moderato_violin.mp4",
+            "duration": "2:49"
+        },
+        {
+            "name"    : "Someone you love",
+            "path"    : "./videos/guitar/SomeoneYouLove_violin_backingTrack.mp4",
+            "duration": "2:54"
+        },
+        {
+            "name"    : "Vivaldi concerto",
+            "path"    : "./videos/guitar/Vivaldi__Concerto_E.mp4",
+            "duration": "3:11"
+        }
+    ]
+}
