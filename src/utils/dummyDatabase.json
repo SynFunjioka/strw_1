@@ -1,52 +1,75 @@
 {
-    "guitar-videos": [
+    "videos": [
         {
+            "id"      : 1,
+            "type"    : "guitar",
             "name"    : "Canon in D",
-            "path"    : "./videos/guitar/Canon_In_D__Johann_Pachelbel_Fingerstyle_Guitar.mp4",
+            "path"    : "/videos/guitar/Canon_In_D__Johann_Pachelbel_Fingerstyle_Guitar.mp4",
+            "image"   : "/videos/guitar/Canon_In_D__Johann_Pachelbel_Fingerstyle_Guitar__miniatura.png",
             "duration": "2:44"
         },
         {
+            "id"      : 2,
+            "type"    : "guitar",
             "name"    : "Careless whisper",
-            "path"    : "./videos/guitar/Careless_Whisper__George_Michael __Fingerstyle_Guitar.mp4",
+            "path"    : "/videos/guitar/Careless_Whisper__George_Michael __Fingerstyle_Guitar.mp4",
+            "image"   : "/videos/guitar/Careless_Whisper__George_Michael __Fingerstyle_Guitar__miniatura.png",
             "duration": "1:52"
         },
         {
+            "id"      : 3,
+            "type"    : "guitar",
             "name"    : "Hotel California",
-            "path"    : "./videos/guitar/Canon_In_D__Johann_Pachelbel_Fingerstyle_Guitar.mp4",
+            "path"    : "/videos/guitar/Canon_In_D__Johann_Pachelbel_Fingerstyle_Guitar.mp4",
+            "image"   : "/videos/guitar/Canon_In_D__Johann_Pachelbel_Fingerstyle_Guitar__miniatura.png",
             "duration": "7:11"
-        }
-    ],
-    "piano-videos": [
+        },
         {
+            "id"      : 4,
+            "type"    : "piano",
             "name"    : "Interestellar main theme",
-            "path"    : "./videos/piano/Interstellar_Main_Theme _Piano.mp4",
+            "path"    : "/videos/piano/Interstellar_Main_Theme _Piano.mp4",
+            "image"   : "/videos/piano/Interstellar_Main_Theme _Piano__miniatura.png",
             "duration": "4:52"
         },
         {
+            "id"      : 5,
+            "type"    : "piano",
             "name"    : "River flows in you",
-            "path"    : "./videos/piano/river_flows_in_you_piano.mp4",
+            "path"    : "/videos/piano/river_flows_in_you_piano.mp4",
+            "image"   : "/videos/piano/river_flows_in_you_piano__miniatura.png",
             "duration": "2:18"
         },
         {
+            "id"      : 6,
+            "type"    : "piano",
             "name"    : "Yoake no uta",
-            "path"    : "./videos/piano/Yoake_no_uta_piano.mp4",
+            "path"    : "/videos/piano/Yoake_no_uta_piano.mp4",
+            "image"   : "/videos/piano/Yoake_no_uta_piano__miniatura.png",
             "duration": "2:15"
-        }
-    ],
-    "violin-videos": [
+        },
         {
+            "id"      : 7,
+            "type"    : "violin",
             "name"    : "Allegro modarato",
-            "path"    : "./videos/guitar/Allegro_Moderato_violin.mp4",
+            "path"    : "/videos/violin/Allegro_Moderato_violin.mp4",
+            "image"   : "/videos/violin/Allegro_Moderato_violin__miniatura.png",
             "duration": "2:49"
         },
         {
+            "id"      : 8,
+            "type"    : "violin",
             "name"    : "Someone you love",
-            "path"    : "./videos/guitar/SomeoneYouLove_violin_backingTrack.mp4",
+            "path"    : "/videos/violin/SomeoneYouLove_violin_backingTrack.mp4",
+            "image"   : "/videos/violin/SomeoneYouLove_violin_backingTrack__miniatura.png",
             "duration": "2:54"
         },
         {
+            "id"      : 9,
+            "type"    : "violin",
             "name"    : "Vivaldi concerto",
-            "path"    : "./videos/guitar/Vivaldi__Concerto_E.mp4",
+            "path"    : "/videos/violin/Vivaldi__Concerto_E.mp4",
+            "image"   : "/videos/violin/Vivaldi__Concerto_E__miniatura.png",
             "duration": "3:11"
         }
     ]

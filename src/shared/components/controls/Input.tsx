@@ -1,4 +1,4 @@
-'use client'
+/* 'use client'
 import { ChangeEvent, useState } from "react";
 import iInputProps from "@/interfaces/components/InputProps";
 
@@ -28,4 +28,4 @@ function Input(props:iInputProps) {
     );
 }
 
-export default Input;
+export default Input; */
