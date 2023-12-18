@@ -28,7 +28,7 @@ function Navigation() {
             </ul>
 
             <div className="legal">
-                &copy; 2023 by Alan Flores
+                &copy; 2023 by Alan Amador Flores Fiscal
             </div>
         </nav>
     )
