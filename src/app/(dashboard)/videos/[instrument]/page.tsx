@@ -39,7 +39,7 @@ export default function InstrumentVideos({
 
   return (
     <main>
-      <h1 className="mb-5">Guitar videos list</h1>
+      <h1 className="mb-5" style={{textTransform: "capitalize"}}>{instrument} videos list</h1>
 
       <section className='video-list row align-items-baseline' style={{gap: "7rem 0"}}>
         {

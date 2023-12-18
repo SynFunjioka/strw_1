@@ -34,8 +34,12 @@ class DummyDB {
         return this.data.filter(video => {
             for (const key in filters) {
                 if (Object.prototype.hasOwnProperty.call(filters, key)) {
-                    if (video[key] !== filters[key]) {
-                        return false; // Si no coincide con alguna propiedad, el elemento no pasa el filtro
+                    const filterKey = key as keyof {
+                        type?: string,
+                        duration?: string
+                    }; // Indicar a TypeScript que la clave es una de las claves válidas en VideoFilter
+                    if (video[filterKey] !== filters[filterKey]) {
+                        return false;
                     }
                 }
             }

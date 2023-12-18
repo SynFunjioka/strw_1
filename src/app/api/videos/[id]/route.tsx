@@ -10,7 +10,7 @@ export async function GET(
     try {
         const videos = DummyDB.getVideo(parseInt(params.id));
 
-        console.log('video res', videos);
+        // console.log('video res', videos);
 
         return Response.json({status: true, data: videos});
  
