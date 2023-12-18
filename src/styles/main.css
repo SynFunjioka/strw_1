@@ -300,6 +300,9 @@ body {
     height: 11rem;
   }
 }
+.header .logo-heading {
+  color: #777;
+}
 
 .navigation {
   background-color: #333;

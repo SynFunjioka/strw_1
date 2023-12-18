@@ -1,7 +1,16 @@
+import Link from "next/link";
+
 function Header() {
     return(
         <header className="header">
-            <img src="" alt="Music academy logo" className="logo"/>
+            
+            <Link href="/" className="logo-heading fs-1 ms-5 text-decoration-none">
+                <svg className="user-nav__icon me-3">
+                    <use xlinkHref="images/sprites.svg#icon-home"></use>
+                </svg>
+                Music academy
+            </Link>
+            {/* <img src="" alt="Music academy logo" className="logo"/> */}
             <nav className="user-nav">
                 {/* <div className="user-nav__icon-box">
                     <svg className="user-nav__icon">
