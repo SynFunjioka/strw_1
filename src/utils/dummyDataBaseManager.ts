@@ -23,8 +23,12 @@ class DummyDB {
         this.data = data; 
     }
 
-    getData() {
+    getList() {
         return this.data;
+    }
+
+    getVideo(id: number){
+        return this.data.find(video => video.id === id);
     }
 }
 

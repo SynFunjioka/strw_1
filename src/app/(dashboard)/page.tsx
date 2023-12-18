@@ -10,8 +10,6 @@ function Home() {
   const [videoList, setVideoList] = useState<iVideo[]>([]);
 
   useEffect(() => {
-    // const videos = DummyDB.getData();
-
     const fetchData = async () => {
       try {
         const res = await fetch('/api/videos');

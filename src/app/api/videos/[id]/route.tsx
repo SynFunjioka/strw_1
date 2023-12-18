@@ -3,9 +3,14 @@ import DummyDB from '@/utils/dummyDataBaseManager';
 
 export const dynamic = 'force-dynamic' // defaults to auto
 
-export async function GET(request: Request) {
+export async function GET(
+    request: Request,
+    { params }: { params: { id: string } }
+) {
     try {
-        const videos = DummyDB.getList();
+        const videos = DummyDB.getVideo(parseInt(params.id));
+
+        console.log('video res', videos);
 
         return Response.json({status: true, data: videos});
  

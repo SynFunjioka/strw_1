@@ -1,6 +1,6 @@
 enum tVideo { guitar, piano, violin }
 export default interface iVideo{
-    id      : string,
+    id      : number,
     type    : tVideo,
     name    : string
     path    : string

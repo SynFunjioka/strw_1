@@ -2,7 +2,7 @@ import Link from "next/link";
 
 import Input from "@/shared/components/controls/Input";
 
-export default function Home() {
+export default function SignUp() {
   return (
     <>
     <section className='signup-info'>
