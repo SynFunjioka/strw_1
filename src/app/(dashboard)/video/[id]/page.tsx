@@ -9,8 +9,6 @@ export default function VideoReproductor({
 }: {
   params: { id: string }
 }) {
-
-  console.log('params of path', params);
   
   const videoID = params.id; 
 

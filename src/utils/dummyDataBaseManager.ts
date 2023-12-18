@@ -23,8 +23,24 @@ class DummyDB {
         this.data = data; 
     }
 
-    getList() {
-        return this.data;
+    getList(
+        filters: {
+            type    ?: string,
+            duration?: string
+        } = {}
+    ) {
+        if(Object.keys(filters).length === 0) return this.data;
+
+        return this.data.filter(video => {
+            for (const key in filters) {
+                if (Object.prototype.hasOwnProperty.call(filters, key)) {
+                    if (video[key] !== filters[key]) {
+                        return false; // Si no coincide con alguna propiedad, el elemento no pasa el filtro
+                    }
+                }
+            }
+            return true;
+        })
     }
 
     getVideo(id: number){
